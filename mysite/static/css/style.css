@@ -114,11 +114,11 @@ img {max-width: 100%;}
 	display:none;
 }
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-	background:#92DD03 ;
+	background:#31708f;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-	background:#92DD03 ;
+	background:#337ab7;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
@@ -275,7 +275,7 @@ img#site-title {
   background: #db3615;
 }
 
-.progress, 
+.progress,
 .progress-bar {
   height: 15px;
   line-height: 15px;
@@ -411,7 +411,8 @@ img#site-title {
 	margin:0 auto;
 }
 .grid li {
-	width:25%;
+	resize: true;
+	width:200%;
 	float:left;
 	cursor:pointer;
 }
@@ -585,7 +586,7 @@ span.nav-close:before {
 @media screen and (max-width:60em) {
 	/* responsive columns;see "Element sizing" on http://masonry.desandro.com/options.html */
 	.grid li {
-			width:33.3%;
+			width:33.33%;
 	}
 	.slideshow li {
 			width:100%;
@@ -620,11 +621,11 @@ span.nav-close:before {
 /* --- Educations --- */
 .hi-icon-effect {
 	padding-bottom:30px;
-	padding-left:10px; 
+	padding-left:10px;
 	padding-right:10px;
 }
 
-.hi-icon-effect:hover {	
+.hi-icon-effect:hover {
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -646,7 +647,7 @@ span.nav-close:before {
 	margin-bottom:30px;
 	color:#fff;
 	padding:50px;
-	background:#92DD03;
+	background:#337ab7;
 	border-radius:50%;
 }
 
@@ -684,7 +685,7 @@ span.nav-close:before {
 }
 
 .contact-info i {
-	color:#92DD03;	
+	color:#92DD03;
 }
 
 
@@ -725,7 +726,7 @@ input.contact {
 	border:solid 1px #ddd;
 	color:#000;
 	padding:15px 30px;
-	
+
 	margin-right:3%;
 	margin-bottom:30px;
 	outline:none;
@@ -738,7 +739,7 @@ textarea.contact {
 	color:#000;
 	border:solid 1px #ddd;
 	padding:15px 30px;
-	
+
 	margin-bottom:40px;
 	outline:none;
 	height:150px;
@@ -755,7 +756,7 @@ textarea.contact {
 	border-radius:3px;
 }
 .contact.submit:hover {
-	background:#92DD03 ;
+	background:#337ab7;
 }
 .done {
 	display:none;
@@ -775,7 +776,7 @@ textarea.contact {
 }
 /* --- Footer --- */
 .footer {
-	background:#92DD03 ;
+	background:#337ab7;
 	margin-top:120px;
 	position:relative;
 	margin-right:-15px;
