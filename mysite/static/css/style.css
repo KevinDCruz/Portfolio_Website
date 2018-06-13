@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a,a:hover {
-	color:#92DD03 ;
+	color:#31708F;
 	text-decoration: none;
 }
 img {max-width: 100%;}
@@ -86,7 +86,7 @@ img {max-width: 100%;}
 .navbar.navbar-inverse.navbar-static-top {
 	margin:0px auto;
 	background:none;
-	color:#92DD03;
+	color:#31708F;
 	border:none;
 	font-family:'Open Sans',sans-serif;
 	font-size:14px;
@@ -192,7 +192,7 @@ header {
 	padding:5px;
 }
 .heading h2::first-letter {
-	color:#92DD03 ;
+	color:#31708f;
 }
 .heading h3 {
 	font-size:16px;
@@ -375,7 +375,7 @@ img#site-title {
 	margin:0 0 20px 0;
 	font-size:19px;
 	padding-bottom:10px;
-	color:#92DD03 ;
+	color:#31708f;
 	border-bottom: 4px double #eee;
 }
 
@@ -634,7 +634,7 @@ span.nav-close:before {
 
 .hi-icon-effect i.fa:hover {
 	background:#fff;
-	color: #92DD03;
+	color: #31708f;
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -685,7 +685,7 @@ span.nav-close:before {
 }
 
 .contact-info i {
-	color:#92DD03;
+	color:#31708f;
 }
 
 
@@ -838,7 +838,7 @@ textarea.contact {
 	border-radius:50%;
 }
 .gototop i {
-	color:#92DD03 ;
+	color:#337ab7;
 	line-height:70px;
 }
 .footer a,.footer a:hover {
@@ -863,11 +863,11 @@ blockquote:before {
 	position:absolute;
 	left:10px;
 	top:-30px;
-	color:#92DD03 ;
+	color:#337ab7;
 	font-family:Georgia;
 }
 blockquote cite {
-	color:#92DD03 ;
+	color:#337ab7;
 	font-size:14px;
 	display:block;
 	margin-top:5px;
