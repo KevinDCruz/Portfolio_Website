@@ -83,7 +83,7 @@
           <h2>About Me</h2>
           <h3>I am a man who walks alone, and when I'm walking a dark road, a night of strolling through the park, 'Fear of the Dark'. Computer Science Graduate, seeking full time opportunities in Data Science, Machine Learning and Data Engineering.
             <br><br>
-            Future Graduate in Computer Science, seeking opportunities to utilize skills in the fields of Data Science, Machine Learning or Data Engineering. Hi, my name is Kevin. I was born and raised in Mumbai, India. I have completed my Masters in Computer Science from University of Massachusetts Dartmouth and Bachelors in Computer Engineering from Bombay University, India. I decided to come back to Hong Kong to pursue entrepreneurship in the financial software space, building products for stock investors.
+            Future Graduate in Computer Science, seeking opportunities to utilize skills in the fields of Data Science, Machine Learning or Data Engineering. Hi, my name is Kevin. I was born and raised in Mumbai, India. I have completed my Masters in Computer Science from University of Massachusetts Dartmouth and Bachelors in Computer Engineering from Bombay University, India.
                         On the side, I love to think about intelligence, specifically, how human intelligence arises and whether human level general intelligence can be replicated on machines. This motivates me to study machine learning. I strongly believe that machine learning, a process which attempts to produce intelligence behavior on machines, is an indispensable step towards the understanding of our own intelligence.
                         I hope my blog can light up some eager minds who share the same passion as I do. If you want to collaborate on projects or kaggle (my profile), feel free to reach out to me.
           </h3>
@@ -218,10 +218,11 @@
                 <figure>
                   <img src="static/img/work/1.jpg" alt="" />
                   <figcaption>
-                    <h3><center>Image Recognition System</center></h3>
+                    <h3><center><b>Graduation Project: Image Recognition System Using Deep Learning Models</b></center></h3>
                     <p align = "left">• Built an Image Recognition System based on CNN/Deep Learning using Pre-Trained models (ResNet50, VGG19) <br>
                                • Provided Image upload options (Local disk/URL) and used a bar graph to display the top 5 predicted outcomes<br>
-                               • Currently building a GUI to give the user an option of choosing a model and view the probabilities of the image<br> (Python, TensorFlow, Keras, Django, Neural Networks, Jupyter Notebook, SublimeText3)</center></p>
+                               • Built a WEB API in Django to give the user a model choosing option and view the probabilities of the image. <br>
+                               • Image can be uploaded from the Local Machine or an Image URL from the web<><br> (Python, TensorFlow, Keras, Django, Neural Networks, Jupyter Notebook, SublimeText3)</center></p>
                   </figcaption>
 
                 </figure>
@@ -236,7 +237,7 @@
                 <figure>
                   <img src="static/img/work/subset.jpg" alt="" />
                   <figcaption>
-                    <h3><center>Analyzing the Million Song Dataset</center></h3>
+                    <h3><center><b>Scalable Data Analysis: Analyzing the Million Song Dataset using Pandas, PySpark and AWS</b></center></h3>
                     <p align="left">• Accessed “Million Song Dataset” (280 GB | Distributed across 8 EC2 Cores) to calculate demography metrics <br>
                                • Extracted and cleansed to arrive at relevant data and ran exploratory analysis to understand data distribution<br>
                                • Employed Pandas and PySpark (across sample and complete dataset) to validate and derive at the metrics<br>
@@ -252,7 +253,7 @@
                 <figure>
                   <img src="static/img/work/Fig8.jpg" alt="" />
                   <figcaption>
-                    <h3><center>Model Comparison for Disease Predictions</center></h3>
+                    <h3><center><b>Machine Learning using RStudio: Model Comparison for Heart Disease Predictions</b></center></h3>
                     <p align="left">• Evaluated and Compared Machine Learning models: Decision Trees (Bagging, Boosting and Random Forest), Neural Networks and Logistic Regression on multiple datasets to find the best fit <br>
                                • Metrics evaluated: Accuracy, Misclassification error, Cross Validation, ROC Curves and Pruning <br>(R (Cleveland, Statlog, SPECT Datasets: UCI Repository), Excel, RStudio)</center></p>
                   </figcaption>
@@ -297,7 +298,7 @@
                 <figure>
                   <img src="static/img/work/IPPRS.jpg" alt="" />
                   <figcaption>
-                    <h3><center>Intelligent and Predictive Page Replacement System</center></h3>
+                    <h3><center><b>Undergraduate Final Group Project: Intelligent and Predictive Page Replacement System</b></center></h3>
                     <p align="left">• Simulated improvements in OS-Memory Management using OPT against traditional existing LRU <br>
 • Algorithm simulated improved the hit-to-miss ratio by 78% <br>
 • Secured 3rd place in Encore 2015, an online National level Project-Paper presentation competition <br>
@@ -638,7 +639,7 @@
 
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="mailto:dcruzkevin94@gmail.com" method="post" role="form" class="contactForm">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
@@ -652,7 +653,7 @@
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
                 <div class="validation"></div>
               </div>
 
@@ -758,7 +759,7 @@
       google.maps.event.addDomListener(window, 'load', initialize_google_map);
     });
   </script>
-  <script src="{% static 'contactform/contactform.js' %}"></script>
+  <!--<script src="{% static 'contactform/contactform.js' %}"></script>-->
 
 
 </body>
