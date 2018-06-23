@@ -111,7 +111,6 @@ pycparser==2.18
 pycrypto==2.6.1
 pyflakes==1.6.0
 Pygments==2.2.0
-pygpu==0.7.6
 pylint==1.8.2
 pyodbc==4.0.22
 pyOpenSSL==17.5.0
