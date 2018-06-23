@@ -25,11 +25,21 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # for static files
 
-PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+#PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+
+STATIC_URL = '/static/'
+
+#STATICFILES_DIRS = (
+#    os.path.join(PROJECT_ROOT, 'static'),
+#)
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
@@ -39,7 +49,7 @@ SECRET_KEY = '3rz9a(n44ji7^^8np5*p-%a+d5pw4x%nti*qjqsjqd-)&e8k@='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['204.48.16.11','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['204.48.16.11', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = ['204.48.16.11'], 'localhost', '127.0.0.1']
 
 
@@ -132,8 +142,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-
-STATIC_URL = '/static/'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
