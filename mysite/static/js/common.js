@@ -1,7 +1,7 @@
 jQuery(function ($) {
 
     'use strict';
-	
+
 // =============================================
 // BEGIN THEME SCRIPTS
 // =============================================
@@ -10,9 +10,9 @@ jQuery(function ($) {
 // Script Wow Animation
 new WOW().init();
 
-//Parallax	
+//Parallax
 jQuery(window).bind('load', function () {
-	parallaxInit();						  
+	parallaxInit();
 });
 function parallaxInit() {
     jQuery('.parallax').each(function(){
@@ -41,5 +41,5 @@ $(function() {
 // =============================================
 // END THEME SCRIPTS
 // =============================================
-	
+
 });

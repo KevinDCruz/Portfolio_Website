@@ -411,8 +411,8 @@ img#site-title {
 	margin:0 auto;
 }
 .grid li {
-	resize: true;
-	width:200%;
+
+	width:25%;
 	float:left;
 	cursor:pointer;
 }
